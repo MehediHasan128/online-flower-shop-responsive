@@ -16,7 +16,7 @@ body{
     font-size: 2.5rem;
     font-weight: 700;
 }
-.featured-description, .card-title{
+.featured-description, .card-title, .delivery-description{
     font-size: 1.25rem;
     color: rgba(39, 39, 39, 0.60);
 }
@@ -40,6 +40,14 @@ body{
     text-align: center;
     margin-bottom: 48px;
 }
+.featured, .delivery{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+
+
 
 
 /* Header styles */
@@ -74,15 +82,8 @@ header{
 main{
     margin-top: 200px;
 }
-section{
-    margin-bottom: 128px;
-}
 
 /* Featured section design */
-.featured{
-    max-width: 1440px;
-    margin: 0 auto;
-}
 .featured-title{
     margin-bottom: 24px;
 }
@@ -121,4 +122,26 @@ section{
 }
 #card-img2{
     bottom: 60px;
+}
+
+
+
+
+
+
+/* Delivery section design */
+.delivery-container{
+    height: 300px;
+    border-radius: 0.5rem;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 175px;
+}
+.delivery-card{
+    text-align: center;
+}
+.delivery-card img{
+    margin-bottom: 1.5rem;
 }

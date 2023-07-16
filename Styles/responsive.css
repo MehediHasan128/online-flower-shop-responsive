@@ -53,12 +53,30 @@
         margin-bottom: 20px;
     }
     .card-img{
-        height: 380px;
+        height: 360px;
     }
     .card-img img{
         width: 200px;
         bottom: 0;
         left: 50px;
+    }
+
+
+    
+    /* Delivery section design */
+    .delivery{
+        margin: 0 15px;
+    }
+    .delivery-container{
+        height: 250px;
+        justify-content: center;
+        padding: 0 10px;
+    }
+    .delivery-description{
+        font-size: 0.9rem;
+    }
+    .delivery-card img{
+        width: 60px;
     }
 }
 
@@ -120,5 +138,18 @@
         width: 200px;
         bottom: 0;
         left: 50px;
+    }
+
+
+
+
+    /* Delivery section design */
+    .delivery{
+        margin: 0 20px;
+    }
+    .delivery-container{
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
     }
 }
